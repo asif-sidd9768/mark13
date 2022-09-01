@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;600&display=swap");
+
+body {
+  margin: 0;
+  /* text-align: center; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4a403a;
+  color: #efefef;
+}
+body,
+#checkButton,
+#dateInput {
+  font-family: "Urbanist", sans-serif;
+}
+
+label,
+#dateInput,
+#checkButton {
+  margin: 0.75rem 0;
+}
+
+#dateInput,
+#checkButton {
+  background-color: #ffc069;
+  border: 2px solid #a45d5d;
+  border-radius: 10px;
+
+  color: #4a403a;
+  font-size: 1.25rem;
+  transition: 200ms;
+}
+#dateInput:hover,
+#checkButton:hover {
+  box-shadow: #a45d5d66 0px 5px, #a45d5d4d 0px 10px, #a45d5d33 0px 15px,
+    #a45d5d1a 0px 20px, #a45d5d0d 0px 25px;
+  transform: translateY(-5px);
+}
+
+#checkButton:hover {
+  cursor: pointer;
+}
+#dateInput {
+  padding: 10px;
+}
+#checkButton {
+  padding: 10px;
+}
+
+label,
+#answer {
+  font-size: 1.5rem;
+}
+.creditSection {
+  text-align: center;
+}
+.socialList {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.logoLink {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+}
+.logo {
+  color: #efefef;
+  transition: 200ms;
+}
+.logo:hover {
+  fill: #ffc069;
+}

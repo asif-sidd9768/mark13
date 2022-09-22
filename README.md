@@ -4,3 +4,6 @@ So, you select your Birthday and click on **is palindrome** button it'll show.
 
 ## Tech Stack
 > HTML, CSS, JavaScript.
+
+## Demo
+![alt text](https://i.ibb.co/Vtk8Yfb/Screenshot-2022-09-22-at-3-43-04-PM.png)
